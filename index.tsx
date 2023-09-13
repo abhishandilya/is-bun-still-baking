@@ -58,6 +58,38 @@ const FEATURE_LIST: { done: boolean; name: string }[] = [
     done: false,
   },
   {
+    name: "bun edit",
+    done: false,
+  },
+  {
+    name: "bun exec",
+    done: false,
+  },
+  {
+    name: "bun explain",
+    done: false,
+  },
+  {
+    name: "bun explore",
+    done: false,
+  },
+  {
+    name: "bun find-dupes",
+    done: false,
+  },
+  {
+    name: "bun fund",
+    done: false,
+  },
+  {
+    name: "bun get",
+    done: false,
+  },
+  {
+    name: "bun help",
+    done: true,
+  },
+  {
     name: "bun install",
     done: true,
   },
@@ -145,7 +177,13 @@ function App() {
   return (
     <div className="max-w-lg mx-auto">
       <h1 className="text-2xl mb-4">Is Bun still baking?</h1>
-      <p className="text-xl mb-4">Yes, Bun is still baking.</p>
+      <p className="text-xl mb-4">
+        Yes,{" "}
+        <a href="https://bun.sh/" target="_blank" className="text-indigo-800">
+          Bun
+        </a>{" "}
+        is still baking.
+      </p>
       <p className="text-xl mb-4">v1.0.1 (last updated Sep-12-2023)</p>
 
       <ProgressBar />
