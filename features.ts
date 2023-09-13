@@ -88,12 +88,56 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
     done: true,
   },
   {
+    name: "bun help-search",
+    done: false,
+  },
+  {
+    name: "bun hook",
+    done: false,
+  },
+  {
+    name: "bun init",
+    done: true,
+  },
+  {
     name: "bun install",
     done: true,
   },
   {
+    name: "bun install-ci-test",
+    done: false,
+  },
+  {
+    name: "bun install-test",
+    done: false,
+  },
+  {
     name: "bun link",
     done: true,
+  },
+  {
+    name: "bun ll",
+    done: false,
+  },
+  {
+    name: "bun login",
+    done: false,
+  },
+  {
+    name: "bun logout",
+    done: false,
+  },
+  {
+    name: "bun ls",
+    done: true,
+  },
+  {
+    name: "bun org",
+    done: false,
+  },
+  {
+    name: "bun outdated",
+    done: false,
   },
   {
     name: "bun run",

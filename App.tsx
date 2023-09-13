@@ -12,7 +12,6 @@ function Checkbox() {
               <input
                 name="comments"
                 type="checkbox"
-                disabled={true}
                 checked={feature.done}
                 className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
               />
@@ -61,17 +60,19 @@ function ProgressBar() {
 
 function App() {
   return (
-    <div className="max-w-xs md:max-w-lg mx-auto mt-8">
-      <h1 className="text-2xl mb-4">Is Bun still baking?</h1>
-      <p className="text-xl mb-4">
-        Yes,{" "}
+    <div className="max-w-xs md:max-w-xl mx-auto mt-8">
+      <h1 className="text-2xl mb-4">
+        Is{" "}
         <a href="https://bun.sh/" target="_blank" className="text-indigo-800">
           Bun
         </a>{" "}
-        is still baking.
-      </p>
-      <p className="text-xl mb-4">
-        v1.0.1 <span className="text-xs">(as of Sep-12-2023)</span>
+        still baking? Yes
+      </h1>
+      <p className="text-lg mb-4">
+        This is comparison of the features of Bun v1.0.1 and npm v9.8.1
+        <br />
+        {/* TODO: update this with every commit */}
+        <span className="text-xs">(as of Sep-13-2023)</span>
       </p>
 
       <ProgressBar />
