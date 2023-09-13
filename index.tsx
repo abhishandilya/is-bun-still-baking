@@ -175,7 +175,7 @@ function ProgressBar() {
 
 function App() {
   return (
-    <div className="max-w-lg mx-auto">
+    <div className="max-w-xs md:max-w-lg mx-auto">
       <h1 className="text-2xl mb-4">Is Bun still baking?</h1>
       <p className="text-xl mb-4">
         Yes,{" "}
