@@ -188,6 +188,15 @@ function App() {
 
       <ProgressBar />
       <Checkbox />
+
+      <p className="my-6 text-indigo-800">
+        <a
+          href="https://github.com/abhishandilya/is-bun-still-baking"
+          target="_blank"
+        >
+          Suggest edits on Github
+        </a>
+      </p>
     </div>
   );
 }
