@@ -175,7 +175,7 @@ function ProgressBar() {
 
 function App() {
   return (
-    <div className="max-w-xs md:max-w-lg mx-auto">
+    <div className="max-w-xs md:max-w-lg mx-auto mt-8">
       <h1 className="text-2xl mb-4">Is Bun still baking?</h1>
       <p className="text-xl mb-4">
         Yes,{" "}
@@ -184,7 +184,9 @@ function App() {
         </a>{" "}
         is still baking.
       </p>
-      <p className="text-xl mb-4">v1.0.1 (last updated Sep-12-2023)</p>
+      <p className="text-xl mb-4">
+        v1.0.1 <span className="text-xs">(as of Sep-12-2023)</span>
+      </p>
 
       <ProgressBar />
       <Checkbox />
