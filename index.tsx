@@ -3,7 +3,7 @@ import { FEATURE_LIST } from "./features";
 
 function Checkbox() {
   return (
-    <fieldset>
+    <fieldset className="mt-4">
       <legend className="sr-only">Features</legend>
       {FEATURE_LIST.map((feature) => (
         <div className="space-y-5">
@@ -77,12 +77,19 @@ function App() {
       <ProgressBar />
       <Checkbox />
 
-      <p className="my-6 text-indigo-800">
+      <p className="my-6 text-indigo-800 flex justify-between">
         <a
           href="https://github.com/abhishandilya/is-bun-still-baking"
           target="_blank"
         >
-          Suggest edits on Github
+          Github
+        </a>
+        <br />
+        <a
+          href="https://discord.com/channels/876711213126520882/1151379879430979664"
+          target="_blank"
+        >
+          Discord Thread
         </a>
       </p>
     </div>
