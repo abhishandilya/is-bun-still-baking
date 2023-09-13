@@ -17,7 +17,10 @@ function Checkbox() {
               />
             </div>
             <div className="ml-3 text-sm leading-6">
-              <label htmlFor="comments" className="font-medium text-gray-900">
+              <label
+                htmlFor="comments"
+                className="font-medium text-gray-900 font-mono"
+              >
                 {feature.name}
               </label>
             </div>
