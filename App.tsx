@@ -3,7 +3,7 @@ import { FEATURE_LIST } from "./features";
 
 function Checkbox() {
   return (
-    <fieldset className="mt-4">
+    <fieldset className="mt-4 grid grid-cols-2">
       <legend className="sr-only">Features</legend>
       {FEATURE_LIST.map((feature) => (
         <div className="space-y-5">
