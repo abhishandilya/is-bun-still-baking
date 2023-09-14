@@ -140,6 +140,38 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
     done: false,
   },
   {
+    name: "bun owner",
+    done: false,
+  },
+  {
+    name: "bun pack",
+    done: false,
+  },
+  {
+    name: "bun ping",
+    done: false,
+  },
+  {
+    name: "bun pkg",
+    done: false,
+  },
+  {
+    name: "bun prefix",
+    done: false,
+  },
+  {
+    name: "bun profile",
+    done: false,
+  },
+  {
+    name: "bun prune",
+    done: false,
+  },
+  {
+    name: "bun publish",
+    done: false,
+  },
+  {
     name: "bun run",
     done: true,
   },
