@@ -4,6 +4,10 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
     done: false,
   },
   {
+    name: "bun add",
+    done: true,
+  },
+  {
     name: "bun adduser",
     done: false,
   },
@@ -13,6 +17,10 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
   },
   {
     name: "bun bugs",
+    done: false,
+  },
+  {
+    name: "bun build",
     done: false,
   },
   {
@@ -213,6 +221,10 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
   },
   {
     name: "bun unlink",
+    done: true,
+  },
+  {
+    name: "bun update",
     done: true,
   },
 ];

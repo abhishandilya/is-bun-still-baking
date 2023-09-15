@@ -72,10 +72,10 @@ function App() {
         still baking? Yes
       </h1>
       <p className="text-lg mb-4">
-        This is comparison of the features of Bun v1.0.1 and npm v9.8.1
+        This is comparison of the features of Bun v1.0.2 and npm v9.8.1
         <br />
         {/* TODO: update this with every commit */}
-        <span className="text-xs">(as of Sep-13-2023)</span>
+        <span className="text-xs">(as of Sep-15-2023)</span>
       </p>
 
       <ProgressBar />
