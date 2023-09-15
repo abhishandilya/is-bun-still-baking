@@ -172,12 +172,40 @@ export const FEATURE_LIST: { done: boolean; name: string }[] = [
     done: false,
   },
   {
-    name: "bun run",
-    done: true,
+    name: "bun query",
+    done: false,
+  },
+  {
+    name: "bun rebuild",
+    done: false,
   },
   {
     name: "bun remove",
     done: true,
+  },
+  {
+    name: "bun repo",
+    done: false,
+  },
+  {
+    name: "bun restart",
+    done: false,
+  },
+  {
+    name: "bun root",
+    done: false,
+  },
+  {
+    name: "bun run",
+    done: true,
+  },
+  {
+    name: "bun run-script",
+    done: false,
+  },
+  {
+    name: "bun search",
+    done: false,
   },
   {
     name: "bun test",
